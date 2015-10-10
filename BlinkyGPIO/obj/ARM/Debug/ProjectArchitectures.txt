@@ -1,0 +1,1 @@
+C:\Users\Guy\Desktop\IoT\BlinkyGPIO\Blinky.csproj;arm

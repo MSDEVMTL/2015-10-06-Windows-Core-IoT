@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+	<StackPanel Padding="50,50,50,50" Orientation="Horizontal" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<StackPanel Width="250" >
+			<TextBlock Text="Blinky!" FontSize="48" />
+			<Button x:Name="btnStartStop" Content="Start" Click="Button_Click" FontSize="36" />
+		</StackPanel>
+		<StackPanel Width="250" >
+			<TextBlock Text="Light: " FontSize="36" />
+			<TextBlock Text="Temp: " FontSize="36"  />
+			<TextBlock Text="Accel: " FontSize="36"  />
+			<TextBlock Text="Button 18: " FontSize="36"  />
+			<TextBlock Text="Button 22: " FontSize="36"  />
+			<TextBlock Text="Leds: " FontSize="36"  />
+		</StackPanel>
+		<StackPanel>
+			<TextBlock Name="LightTextBox" FontSize="36"  />
+			<TextBlock Name="TempTextBox" FontSize="36"  />
+			<TextBlock Name="AccelTextBox" FontSize="36"  />
+			<TextBlock Name="Button18TextBox" FontSize="36"  />
+			<TextBlock Name="Button22TextBox" FontSize="36"  />
+			<TextBlock Name="LedsTextBox" FontSize="36"  />
+
+		</StackPanel>
+	</StackPanel>
+
+</Page>
