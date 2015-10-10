@@ -15,3 +15,5 @@ L'inévitable démo "Hello World" en IoT qui est une appli qui fait clignoter un
 Requiert: Windows 10, Visual Studio 2015, Raspberry Pi 2, board FEZ HAT
 https://www.ghielectronics.com/catalog/product/500
 
+Le projet sous BlinkyGPIO utilise le namespace GPIO tandis que le projet sous BlinkyGHI utilise la librairie de GHI.
+
