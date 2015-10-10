@@ -1,6 +1,8 @@
 # 2015-10-06-Windows-Core-IoT
 Groupe .NET/ASP.NET
+
 2015-10-06
+
 Conférencier: Guy Barrette
 
 Microsoft a lancé simultanément Windows Code IoT avec Windows 10.  Cette version gratuite de Windows s'installe sur de petits appareils comme le Rapsberry Pi 2.  Ces appareils forment ce qu'on nomme "L'Internet des Objets" ou "Internet Of Things".
